@@ -14,7 +14,7 @@ int gcd_modulus(int a, int b)
   return a;
 }
 
-int gcd_recursion(int a, b)
+int gcd_recursion(int a, int b)
 {
   if (b==0)
     return a;
