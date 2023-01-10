@@ -23,3 +23,20 @@ int gcd_recursion(int a, b)
 }
  
 // two ways all possible. recursion more sophisticated
+
+void main(void)
+{
+  int a, b;
+  int gcd;
+  
+  a = 280;
+  b = 30;
+  
+  printf("gcd_modulus result: ");
+  gcd = gcd_modulus(a, b);
+  printf("%d\n", gcd);
+  
+  printf("gcd_recursion result: ");
+  gcd = gcd_recursion(a, b);
+  printf("%d\n", gcd);
+}
