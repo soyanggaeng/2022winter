@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>회원가입</title>
+</head>
+<body>
+    <h2>회원가입</h2>
+    <!-- input은 inline 요소. 추후엔 css로 조절 예정-->
+    <input type="text" placeholder="이메일을 입력해주세요."><br><br>
+    <input type="text" placeholder="이름을 입력해주세요."><br><br>
+    <input type="password" placeholder="비밀번호를 입력해주세요."><br><br>
+    <input type="password" placeholder="비밀번호를 다시 입력해주세요."><br><br>
+    <select>
+        <option disabled="true" selected="true">지역을 선택하세요.</option>
+            <!-- 선택 비활성화, 이 문구가 보이게끔 -->
+        <option>서울</option>
+        <option>경기</option>
+        <option>인천</option>
+    </select>
+    <br><br>
+    <input type="radio" name="gender">여성
+        <!-- name으로 그룹핑 -->
+    <input type="radio" name="gender">남성
+    <br><br>
+    <input type="checkbox">이용약관 개인정보 수집 및 활용에 동의합니다.
+    <hr>
+    <button>가입하기</button> 
+        <!-- 과거에는 input type button이 존재했음, 그러나 요즘은 버튼 형식이 다양해 아예 태그로 나오게 됨 -->
+</body>
+</html>
