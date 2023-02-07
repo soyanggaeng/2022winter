@@ -4,3 +4,4 @@
 - Deep learning NLP course
 - CUDA programming
 - html, css, java basic
+- blog website programming
