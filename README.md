@@ -5,3 +5,4 @@
 - CUDA programming
 - html, css, java basic
 - blog website programming
+- CUDA programming from winter school (accelerator programming)
