@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        div {
+            width: 80px;
+            height: 80px;
+            border: 1px solid red;
+            padding: 10px;
+        }
+
+		.pb {
+            width: 500px;
+            height: 500px;
+            border: 1px solid blue;
+            display: flex;
+			flex-direction: column;
+				/* base: row */
+			justify-content: space-around;
+				/* base: flex-start / right end: flex-end / each arrangement and space changed: space-around ... */
+			align-items: center;
+			padding: 50px;
+        }
+/* 
+        #contentBox{
+            box-sizing: content-box;
+        }
+
+        #borderBox{
+            box-sizing: border-box;
+        } */
+
+    </style>
+</head>
+<body>
+    <div class="pb">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+	</div>
+</body>
+</html>
